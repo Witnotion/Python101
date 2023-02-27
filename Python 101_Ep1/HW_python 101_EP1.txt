@@ -1,0 +1,24 @@
+import turtle
+tao = turtle.Pen()
+tao.shape('turtle')
+turtle.bgcolor('black')
+
+============================
+
+for i in range(12):
+    tao.speed(500)
+    tao.color("yellow", "red")
+    tao.begin_fill()
+    tao.lt(50)
+    tao.circle(100)
+    tao.end_fill()
+    tao.color("blue")
+    tao.rt(45)
+    tao.circle(75)
+    tao.rt(45)
+    tao.fd(150)
+    for i in range(6):
+        tao.speed(300)
+        tao.color("peru")
+        tao.fd(150)
+        tao.lt(50)
